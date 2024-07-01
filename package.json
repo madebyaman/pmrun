@@ -1,0 +1,19 @@
+{
+  "name": "pmrun",
+  "type": "module",
+  "main": "cli.js",
+  "version": "1.0.0",
+  "description": "A CLI tool to detect package manager and forward commands",
+  "bin": {
+    "pmrun": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aman Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
